@@ -1,0 +1,93 @@
+// // {
+// //   // Visit https://aka.ms/tsconfig to read more about this file
+// //   "compilerOptions": {
+// //     // File Layout
+// //     // "rootDir": "./src",
+// //     // "outDir": "./dist",
+
+// //     // Environment Settings
+// //     // See also https://aka.ms/tsconfig/module
+// //     "module": "nodenext",
+// //     "target": "esnext",
+// //     "types": [],
+// //     // For nodejs:
+// //     // "lib": ["esnext"],
+// //     // "types": ["node"],
+// //     // and npm install -D @types/node
+
+// //     // Other Outputs
+// //     "sourceMap": true,
+// //     "declaration": true,
+// //     "declarationMap": true,
+
+// //     // Stricter Typechecking Options
+// //     "noUncheckedIndexedAccess": true,
+// //     "exactOptionalPropertyTypes": true,
+
+// //     // Style Options
+// //     // "noImplicitReturns": true,
+// //     // "noImplicitOverride": true,
+// //     // "noUnusedLocals": true,
+// //     // "noUnusedParameters": true,
+// //     // "noFallthroughCasesInSwitch": true,
+// //     // "noPropertyAccessFromIndexSignature": true,
+
+// //     // Recommended Options
+// //     "strict": true,
+// //     "jsx": "react-jsx",
+// //     "verbatimModuleSyntax": true,
+// //     "isolatedModules": true,
+// //     "noUncheckedSideEffectImports": true,
+// //     "moduleDetection": "force",
+// //     "skipLibCheck": true,
+// //   }
+// // }
+// {
+//   "compilerOptions": {
+//     // Environment Settings
+//     "module": "nodenext",
+//     "target": "es2025",
+
+//     // Strictness
+//     "strict": true,
+//     "noImplicitAny": true,
+//     "strictNullChecks": true,
+//     "noUncheckedIndexedAccess": true,
+
+//     // Output settings
+//     "rootDir": ".",
+//     "outDir": "./dist",
+//     "sourceMap": true,
+//     "declaration": true,
+//     "declarationMap": true,
+
+//     // Recommended / safe defaults
+//     "verbatimModuleSyntax": true,
+//     "moduleDetection": "force",
+//     "skipLibCheck": true,
+
+//     // Unused / not needed for this project
+//     // "jsx": "react-jsx",
+//     // "types": [],
+//     // "isolatedModules": true,
+//     // "noUncheckedSideEffectImports": true,
+//     // "exactOptionalPropertyTypes": true,
+//   },
+//   "include": ["**/*.ts"],
+//   "exclude": ["node_modules", "dist"]
+// }
+{
+
+"compilerOptions": {
+"target": "es2025",
+"module": "nodenext",
+"strict": true,
+"rootDir": ".",
+"outDir": "./dist",
+"noImplicitAny": true,
+"strictNullChecks": true,
+"noUncheckedIndexedAccess": true
+},
+"include": ["**/*.ts"],
+"exclude": ["node_modules", "dist"]
+}
